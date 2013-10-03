@@ -1,0 +1,442 @@
+[{
+  "answer_id": 1,
+  "question_id": 1,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 2
+ },
+ {
+  "answer_id": 2,
+  "question_id": 1,
+  "answer_text": "No",
+  "node_type": "question",
+  "node_id": 3
+ },
+ {
+  "answer_id": 3,
+  "question_id": 2,
+  "answer_text": "Yes",
+  "node_type": "product",
+  "node_id": 2
+ },
+ {
+  "answer_id": 4,
+  "question_id": 2,
+  "answer_text": "No",
+  "node_type": "product",
+  "node_id": 1
+ },
+ {
+  "answer_id": 5,
+  "question_id": 3,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 4
+ },
+ {
+  "answer_id": 6,
+  "question_id": 3,
+  "answer_text": "No",
+  "node_type": "product",
+  "node_id": 3
+ },
+ {
+  "answer_id": 7,
+  "question_id": 4,
+  "answer_text": "2",
+  "node_type": "product",
+  "node_id": 4
+ },
+ {
+  "answer_id": 8,
+  "question_id": 4,
+  "answer_text": "4",
+  "node_type": "question",
+  "node_id": 5
+ },
+ {
+  "answer_id": 9,
+  "question_id": 5,
+  "answer_text": "Type 1",
+  "node_type": "product",
+  "node_id": 6
+ },
+ {
+  "answer_id": 10,
+  "question_id": 5,
+  "answer_text": "Type 2",
+  "node_type": "product",
+  "node_id": 5
+ },
+ {
+  "answer_id": 11,
+  "question_id": 6,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 7
+ },
+ {
+  "answer_id": 12,
+  "question_id": 6,
+  "answer_text": "No",
+  "node_type": "product",
+  "node_id": 7
+ },
+ {
+  "answer_id": 13,
+  "question_id": 7,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 8
+ },
+ {
+  "answer_id": 14,
+  "question_id": 7,
+  "answer_text": "No",
+  "node_type": "question",
+  "node_id": 9
+ },
+ {
+  "answer_id": 15,
+  "question_id": 8,
+  "answer_text": "Type 1",
+  "node_type": "product",
+  "node_id": 10
+ },
+ {
+  "answer_id": 16,
+  "question_id": 8,
+  "answer_text": "Type 2",
+  "node_type": "product",
+  "node_id": 11
+ },
+ {
+  "answer_id": 17,
+  "question_id": 9,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 10
+ },
+ {
+  "answer_id": 18,
+  "question_id": 9,
+  "answer_text": "No",
+  "node_type": "question",
+  "node_id": 11
+ },
+ {
+  "answer_id": 19,
+  "question_id": 10,
+  "answer_text": "Type 1",
+  "node_type": "question",
+  "node_id": 29
+ },
+ {
+  "answer_id": 20,
+  "question_id": 10,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 30
+ },
+ {
+  "answer_id": 21,
+  "question_id": 11,
+  "answer_text": "Type 1",
+  "node_type": "product",
+  "node_id": 35
+ },
+ {
+  "answer_id": 22,
+  "question_id": 11,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 12
+ },
+ {
+  "answer_id": 23,
+  "question_id": 12,
+  "answer_text": "Yes",
+  "node_type": "product",
+  "node_id": 9
+ },
+ {
+  "answer_id": 24,
+  "question_id": 12,
+  "answer_text": "No",
+  "node_type": "product",
+  "node_id": 8
+ },
+ {
+  "answer_id": 25,
+  "question_id": 13,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 14
+ },
+ {
+  "answer_id": 26,
+  "question_id": 13,
+  "answer_text": "No",
+  "node_type": "question",
+  "node_id": 17
+ },
+ {
+  "answer_id": 27,
+  "question_id": 14,
+  "answer_text": "Type 1",
+  "node_type": "question",
+  "node_id": 15
+ },
+ {
+  "answer_id": 28,
+  "question_id": 14,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 16
+ },
+ {
+  "answer_id": 29,
+  "question_id": 15,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 14
+ },
+ {
+  "answer_id": 30,
+  "question_id": 15,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 15
+ },
+ {
+  "answer_id": 31,
+  "question_id": 16,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 12
+ },
+ {
+  "answer_id": 32,
+  "question_id": 16,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 13
+ },
+ {
+  "answer_id": 33,
+  "question_id": 17,
+  "answer_text": "Type 1",
+  "node_type": "question",
+  "node_id": 18
+ },
+ {
+  "answer_id": 34,
+  "question_id": 17,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 19
+ },
+ {
+  "answer_id": 35,
+  "question_id": 18,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 18
+ },
+ {
+  "answer_id": 36,
+  "question_id": 18,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 19
+ },
+ {
+  "answer_id": 37,
+  "question_id": 19,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 16
+ },
+ {
+  "answer_id": 38,
+  "question_id": 19,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 17
+ },
+ {
+  "answer_id": 39,
+  "question_id": 20,
+  "answer_text": "Yes",
+  "node_type": "question",
+  "node_id": 21
+ },
+ {
+  "answer_id": 40,
+  "question_id": 20,
+  "answer_text": "No",
+  "node_type": "question",
+  "node_id": 24
+ },
+ {
+  "answer_id": 41,
+  "question_id": 21,
+  "answer_text": "Type 1",
+  "node_type": "question",
+  "node_id": 22
+ },
+ {
+  "answer_id": 42,
+  "question_id": 21,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 23
+ },
+ {
+  "answer_id": 43,
+  "question_id": 22,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 30
+ },
+ {
+  "answer_id": 44,
+  "question_id": 22,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 31
+ },
+ {
+  "answer_id": 45,
+  "question_id": 23,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 28
+ },
+ {
+  "answer_id": 46,
+  "question_id": 23,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 29
+ },
+ {
+  "answer_id": 47,
+  "question_id": 24,
+  "answer_text": "Type 1",
+  "node_type": "question",
+  "node_id": 25
+ },
+ {
+  "answer_id": 48,
+  "question_id": 24,
+  "answer_text": "Type 2",
+  "node_type": "question",
+  "node_id": 26
+ },
+ {
+  "answer_id": 49,
+  "question_id": 25,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 25
+ },
+ {
+  "answer_id": 50,
+  "question_id": 25,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 26
+ },
+ {
+  "answer_id": 51,
+  "question_id": 26,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 24
+ },
+ {
+  "answer_id": 52,
+  "question_id": 26,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 27
+ },
+ {
+  "answer_id": 53,
+  "question_id": 27,
+  "answer_text": "Speech Intelligibility",
+  "node_type": "question",
+  "node_id": 28
+ },
+ {
+  "answer_id": 54,
+  "question_id": 27,
+  "answer_text": "Reverberation",
+  "node_type": "product",
+  "node_id": 32
+ },
+ {
+  "answer_id": 55,
+  "question_id": 28,
+  "answer_text": "Type 1",
+  "node_type": "product",
+  "node_id": 33
+ },
+ {
+  "answer_id": 56,
+  "question_id": 28,
+  "answer_text": "Type 2",
+  "node_type": "product",
+  "node_id": 34
+ },
+ {
+  "answer_id": 57,
+  "question_id": 29,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 14
+ },
+ {
+  "answer_id": 58,
+  "question_id": 29,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 15
+ },
+ {
+  "answer_id": 59,
+  "question_id": 30,
+  "answer_text": "1/1",
+  "node_type": "product",
+  "node_id": 12
+ },
+ {
+  "answer_id": 60,
+  "question_id": 30,
+  "answer_text": "1/3",
+  "node_type": "product",
+  "node_id": 13
+ },
+ {
+  "answer_id": 61,
+  "question_id": 31,
+  "answer_text": "1",
+  "node_type": "question",
+  "node_id": null
+ },
+ {
+  "answer_id": 62,
+  "question_id": 31,
+  "answer_text": "2",
+  "node_type": "question",
+  "node_id": null
+ },
+ {
+  "answer_id": 63,
+  "question_id": 31,
+  "answer_text": "3 products",
+  "node_type": "product",
+  "node_id": null
+ }
+]

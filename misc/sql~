@@ -1,0 +1,15 @@
+select  q.question_id, q.question_text, q.description, group_concat(a.answer_id) answer_ids, 
+                group_concat(a.answer_text) answer_texts, group_concat(a.node_type) node_types
+		from questions q 
+		left join answers a on q.question_id=a.question_id 
+                -- where q.assessment='individual' 
+		where q.question_id=31
+		group by q.question_id ;
+		-- order by q.question_id limit 0,1;
+		
+		
+select n.answer_id, n.node_id, (select a.node_type from answers a where a.answer_id = n.answer_id) 
+from answer_nodes n 
+where n.answer_id in (select a.answer_id from answers a where a.question_id = 31);
+
+

@@ -1,0 +1,153 @@
+1,1,Yes,question,2
+2,1,No,question,3
+3,2,Yes,product,2
+4,2,No,product,1
+5,3,Yes,question,4
+6,3,No,product,3
+7,4,2,product,4
+8,4,4,question,5
+9,5,Type 1,product,6
+10,5,Type 2,product,5
+11,6,Yes,question,7
+12,6,No,product,7
+13,7,Yes,question,8
+14,7,No,question,9
+15,8,Type 1,product,10
+16,8,Type 2,product,11
+17,9,Yes,question,10
+18,9,No,question,11
+19,10,Type 1,question,29
+20,10,Type 2,question,30
+21,11,Type 1,product,35
+22,11,Type 2,question,12
+23,12,Yes,product,9
+24,12,No,product,8
+25,13,Yes,question,14
+26,13,No,question,17
+27,14,Type 1,question,15
+28,14,Type 2,question,16
+29,15,1/1,product,14
+30,15,1/3,product,15
+31,16,1/1,product,12
+32,16,1/3,product,13
+33,17,Type 1,question,18
+34,17,Type 2,question,19
+35,18,1/1,product,18
+36,18,1/3,product,19
+37,19,1/1,product,16
+38,19,1/3,product,17
+39,20,Yes,question,21
+40,20,No,question,24
+41,21,Type 1,question,22
+42,21,Type 2,question,23
+43,22,1/1,product,30
+44,22,1/3,product,31
+45,23,1/1,product,28
+46,23,1/3,product,29
+47,24,Type 1,question,25
+48,24,Type 2,question,26
+49,25,1/1,product,25
+50,25,1/3,product,26
+51,26,1/1,product,24
+52,26,1/3,product,27
+53,27,Speech Intelligibility,question,28
+54,27,Reverberation,product,32
+55,28,Type 1,product,33
+56,28,Type 2,product,34
+57,29,1/1,product,14
+58,29,1/3,product,15
+59,30,1/1,product,12
+60,30,1/3,product,13
+61,31,Disposable,question,NULL
+62,31,Push-to-Fit,question,NULL
+63,31,Reusable,question,NULL
+64,32,23-28,question,NULL
+65,32,29-33,question,NULL
+66,33,Corded,product,NULL
+67,33,Uncorded,product,NULL
+68,34,Bell,question,NULL
+69,34,Cylinder,question,NULL
+70,34,Tapered,question,NULL
+71,35,Corded,product,NULL
+72,35,Uncorded,product,NULL
+73,36,Corded,question,NULL
+74,36,Uncorded,question,NULL
+75,37,Large,product,NULL
+76,37,Regular,product,NULL
+77,37,Small,product,NULL
+78,38,Large,question,NULL
+79,38,Regular,product,NULL
+80,38,Small,product,NULL
+81,39,Yes,product,NULL
+82,39,No,product,NULL
+83,40,Corded,question,NULL
+84,40,Uncorded,question,NULL
+85,41,Large,product,NULL
+86,41,Regular,product,NULL
+87,42,Large,product,NULL
+88,42,Regular,question,NULL
+89,43,Yes,product,NULL
+90,43,No,product,NULL
+91,44,23-38,question,NULL
+92,44,29-33,question,NULL
+93,45,Uncorded,product,NULL
+94,45,Corded,question,NULL
+95,46,Yes,product,NULL
+96,46,No,product,NULL
+97,47,Bell,question,NULL
+98,47,Tapered,product,NULL
+99,47,Pod,question,NULL
+100,48,Uncorded,product,NULL
+101,48,Corded,product,NULL
+102,49,NULL,NULL,NULL
+103,49,NULL,NULL,NULL
+104,50,Uncorded,product,NULL
+105,50,Corded,product,NULL
+106,51,12-22,question,NULL
+107,51,23-28,question,NULL
+108,52,Bell,question,NULL
+109,52,Flange,product,NULL
+110,53,Corded,product,NULL
+111,53,Uncorded,product,NULL
+112,54,Uncorded,product,NULL
+113,54,Corded,question,NULL
+114,55,Yes,product,NULL
+115,55,No,product,NULL
+116,56,Over-the-Head,question,NULL
+117,56,Neckband,question,NULL
+118,56,Hard Hat Attached,question,NULL
+119,57,Yes,question,NULL
+120,57,No,question,NULL
+121,58,12-22,product,NULL
+122,58,23-28,question,NULL
+123,59,Yes,product,NULL
+124,59,No,product,NULL
+125,60,Yes,question,NULL
+126,60,No,question,NULL
+127,61,12-22,product,NULL
+128,61,23-28,product,NULL
+129,62,Yes,product,NULL
+130,62,No,question,NULL
+131,63,12-22,question,NULL
+132,63,23-28,question,NULL
+133,63,29-33,question,NULL
+134,64,Yes,product,NULL
+135,64,No,product,NULL
+136,65,Yes,product,NULL
+137,65,No,product,NULL
+138,66,Yes,product,NULL
+139,66,No,product,NULL
+140,67,12-22,product,NULL
+141,67,23-28,product,NULL
+142,67,29-33,product,NULL
+143,68,Yes,product,NULL
+144,68,No,question,NULL
+145,69,12-22,question,NULL
+146,69,23-28,question,NULL
+147,69,29-33,product,NULL
+148,70,No,product,NULL
+149,70,Yes,product,NULL
+150,71,No,product,NULL
+151,71,Yes,product,NULL
+152,72,12-22,product,NULL
+153,72,23-28,product,NULL

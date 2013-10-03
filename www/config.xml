@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.theshinebox.threeM"
+        version="0.4"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>3M</name>
+    <description>
+    </description>
+    <author email="jessie@theshinebox.com" href="http://www.theshinebox.com/">
+    </author>
+    <author email="bryan.smith@solutiondesign.com" href="http://solutiondesign.com/">
+    </author>
+    <content src="index.html" />
+    <access origin="http://127.0.0.1*" />
+    <access origin="http://fonts.googleapis.com/*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="orienation" value="portrait" />
+    <preference name="target-device" value="handset" />
+    <icon src="icon.png" />
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+</widget>

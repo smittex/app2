@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="1.0">
+    <head>
+        <title>Detection Solutions</title>
+        <ownerName></ownerName>
+    </head>
+    <body>
+        <outline text="Detection Solutions">
+            <outline text="Individual Assessment">
+                <outline text="Do you prefer a cable-free 
+noise dosimeter?">
+                    <outline text="Yes">
+                        <outline text="Do you need your dosimeter 
+to be certified intrinsically safe?">
+                            <outline text="Yes">
+                                <outline text="3M™ Edge eg5"></outline>
+                            </outline>
+                            <outline text="No">
+                                <outline text="3M™ Edge eg4"></outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="No">
+                        <outline text="Do you need data logging 
+capability for later analysis?">
+                            <outline text="Yes">
+                                <outline text="Do you need to simultaneously monitor against four industry standards?">
+                                    <outline text="2">
+                                        <outline text="3M™ NoisePro™ Dosimeter DL"></outline>
+                                    </outline>
+                                    <outline text="4">
+                                        <outline text="Choose the microphone type 
+your application requires.">
+                                            <outline text="Type 1 microphone">
+                                                <outline text="3M™ NoisePro™ Dosimeter DLX-1"></outline>
+                                            </outline>
+                                            <outline text="Type 2 microphone">
+                                                <outline text="3M™ NoisePro™ Dosimeter DLX"></outline>
+                                            </outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="No">
+                                <outline text="3M™ NoisePro™ Dosimeter"></outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="Task Based Assessment">
+                <outline text="Do you need data logging 
+capability for later analysis?">
+                    <outline text="Yes">
+                        <outline text="Do you need octave band analysis for evaluating effectiveness of noise controls?">
+                            <outline text="Yes">
+                                <outline text="Choose the microphone type 
+your application requires.">
+                                    <outline text="Type 1 microphone">
+                                        <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                            <outline text="1/1">
+                                                <outline text="3M™ SoundPro Sound 
+Level Meter DL-1-1/1"></outline>
+                                            </outline>
+                                            <outline text="1/3">
+                                                <outline text="3M™ SoundPro Sound 
+Level Meter DL-1-1/3"></outline>
+                                            </outline>
+                                        </outline>
+                                    </outline>
+                                    <outline text="Type 2 microphone">
+                                        <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                            <outline text="1/1">
+                                                <outline text="3M™ SoundPro Sound 
+Level Meter DL-2-1/1"></outline>
+                                            </outline>
+                                            <outline text="1/3">
+                                                <outline text="3M™ SoundPro Sound 
+Level Meter DL-2-1/3"></outline>
+                                            </outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="No">
+                                <outline text="Choose the microphone type 
+your application requires.">
+                                    <outline text="Type 1 microphone">
+                                        <outline text="3M™ Sound Examiner SE-401"></outline>
+                                    </outline>
+                                    <outline text="Type 2 microphone">
+                                        <outline text="Do you need a removable preamp?">
+                                            <outline text="Yes">
+                                                <outline text="3M™ Sound 
+Examiner SE-402-R"></outline>
+                                            </outline>
+                                            <outline text="No">
+                                                <outline text="3M™ Sound 
+Examiner SE-402"></outline>
+                                            </outline>
+                                        </outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="No">
+                        <outline text="3M™ Sound Detector SD-200"></outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="Noise Control Assessment">
+                <outline text="Do you need data logging 
+capability for later analysis?">
+                    <outline text="Yes">
+                        <outline text="Choose the microphone type 
+your application requires.">
+                            <outline text="Type 1 microphone">
+                                <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                    <outline text="1/1">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter DL-1-1/1"></outline>
+                                    </outline>
+                                    <outline text="1/3">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter DL-1-1/3"></outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="Type 2 microphone">
+                                <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                    <outline text="1/1">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter DL-2-1/1"></outline>
+                                    </outline>
+                                    <outline text="1/3">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter DL-2-1/3"></outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                    <outline text="No">
+                        <outline text="Choose the microphone type 
+your application requires.">
+                            <outline text="Type 1 microphone">
+                                <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                    <outline text="1/1">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter SP-SE-1-1/1"></outline>
+                                    </outline>
+                                    <outline text="1/3">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter SP-SE-1-1/3"></outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                            <outline text="Type 2 microphone">
+                                <outline text="Do you need full octave (1/1) or third 
+octave (1/3) real time analysis?">
+                                    <outline text="1/1">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter SP-SE-2-1/1"></outline>
+                                    </outline>
+                                    <outline text="1/3">
+                                        <outline text="3M™ SoundPro Sound 
+Level Meter SP-SE-2-1/3"></outline>
+                                    </outline>
+                                </outline>
+                            </outline>
+                        </outline>
+                    </outline>
+                </outline>
+            </outline>
+            <outline text="Environmental Assessment"></outline>
+            <outline text="Specialty Assessment"></outline>
+        </outline>
+    </body>
+</opml>

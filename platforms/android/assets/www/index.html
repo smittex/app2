@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="cleartype" content="on">
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="style.css">
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+	<nav class="main-nav">
+		<ul>
+			<li><a class="home" onclick="app.home()">Home</a></li>
+			<li><a class="open-assessments">Assessments</a></li>
+			<li><a class="open-browse">Browse</a></li>
+		</ul>
+	</nav>
+
+	<section class="screen montage" data-screen="montage">
+		<h4 class="bolder">3M™ Hearing Solutions</h4>
+		<img class="montage" src="img/montage.jpg" />
+		<nav class="cat-nav">
+			<ul>
+				<li><a class="next det-icon">Detection</a></li>
+				<li><a class="next pro-icon">Protection</a></li>
+				<li><a class="next com-icon">Validation</a></li>
+
+			</ul>
+		</nav>
+		<h4>
+			The power to protect your world.<sup>SM</sup>
+		</h4>
+	</section>
+
+	<section class="screen detection" data-screen="cat-intro"></section>
+	<section class="screen detection" data-screen="select-assess"></section>
+	<section class="screen detection after-assess" data-screen="assess-intro"></section>
+	<section class="screen detection after-assess" data-screen="question-container"></section>
+	<section class="screen detection after-assess" data-screen="product-page"></section>
+
+	<!-- Browse start -->
+	<section class="screen browse general">
+		<header>
+			<h1>Browse</h1>
+		</header>
+
+		<div class="pane first">
+			<article class="contents-wrap">
+				<ul>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							3M™ Detection Solutions
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							3M™ Protection Solutions
+							<div class="color pro">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							3M™ Communication Solutions
+							<div class="color com">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+				</ul>
+			</article>
+		</div>
+
+		<div class="pane not-first">
+			<div class="browse-back">
+				<a class="back-pane"><img class="browse-back-arrow"
+					src="img/back_arrow.png" /></a>
+			</div>
+			<article class="contents-wrap">
+				<ul>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							Detection Sub-Category 1
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							Detection Sub-Category 2
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							Detection Sub-Category 3
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							Detection Sub-Category 4
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a
+						class="browse-next select-button multiple transparent list med">
+							Detection Sub-Category 5
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+				</ul>
+			</article>
+		</div>
+
+		<div class="pane not-first">
+			<div class="browse-back">
+				<a class="back-pane"><img class="browse-back-arrow"
+					src="img/back_arrow.png" /></a>
+			</div>
+			<article class="contents-wrap">
+				<ul>
+					<li><a
+						class="open-product select-button multiple transparent list med">
+							3M™ Sound Detector SD-200
+							<div class="color det">
+								<img src="img/right_arrow_black.png" />
+							</div>
+					</a></li>
+				</ul>
+			</article>
+		</div>
+
+	</section>
+	<!-- Browse end -->
+
+    <script id="cat-intro-tmpl" type="text/x-handlebars-template">
+        <header>
+            <div class="nav-back">
+                <a class="back"><img src="img/back_arrow.png" /></a>
+            </div>
+            <h1>{{title}}</h1>
+        </header>
+
+        <article class="contents-wrap">
+            <h2>{{header}}</h2>
+            <div class="full-width">
+                <img src="img/det_cat_intro.jpg" />
+            </div>
+            <a class="next select-button">
+                Select Assessment
+                <img class="right-arrow" src="img/right_arrow.png" />
+            </a>
+            <div class="copy-wrap">
+                {{{description}}}
+            </div>
+            <a href="http://link.brightcove.com/services/player/bcpid2127401086001?bckey=AQ~~,AAABHqwijIE~,eE4mETXuXRVkuTP-Kx4o5VhzD5sp-6qo&bclid=1894450151001&bctid=1849635222001"
+               class="select-button green">
+                Customer Testimonials
+                <img class="right-arrow" src="img/right_arrow.png" />
+            </a>
+        </article>
+    </script>
+
+	<script id="select-assess-tmpl" type="text/x-handlebars-template">
+        <header>
+            <div class="nav-back">
+                <a class="back"><img src="img/back_arrow.png" /></a>
+            </div>
+            <h1>{{assessment}}</h1>
+        </header>
+
+        <article class="contents-wrap">
+            <h2>Select Assessment</h2>
+            {{#each assessments}}
+            <a class="next select-button multiple image" data-subitem="{{title}}">
+                <img class="select-thumb" src="img/{{image}}" />
+                {{title}}
+                <img class="right-arrow" src="img/right_arrow.png" />
+            </a>
+            {{/each}}
+        </article>
+	</script>
+
+    <script id="assess-intro-tmpl" type="text/x-handlebars-template">
+        <!-- Assessment intro screen start -->
+            <header>
+                <div class="nav-back">
+                    <a class="back"><img src="img/back_arrow.png" /></a>
+                </div>
+                <h1>{{title}}</h1>
+            </header>
+
+            <article class="contents-wrap">
+                <h2>{{title}}</h2>
+                <div class="full-width">
+                    <img src="img/{{image}}" />
+                </div>
+                <a class="next select-button">
+                    Start Assessment
+                    <img class="right-arrow" src="img/right_arrow.png" />
+                </a>
+                <div class="copy-wrap">
+                    <p>{{{description}}}</p>
+                </div>
+            </article>
+        <!-- Assessment intro screen end -->
+    </script>
+
+    <script id="question-tmpl" type="text/x-handlebars-template">
+        <header>
+            <div class="nav-back">
+                <a class="back"><img src="img/back_arrow.png" /></a>
+            </div>
+            <h1>{{{title}}}</h1>
+        </header>
+
+        <article class="contents-wrap">
+            <h2 class="question">{{{question}}}</h2>
+            <div class="copy-wrap">
+                <p>{{{description}}}</p>
+            </div>
+            <div class="question-choices">
+                <ul>
+                    <!-- TODO: alternate the class -->
+                    {{#each answers}}
+                    <li class="option1"><a class="answer" data-question-id="{{../question_id}}" data-answer-id="{{id}}" data-node-type="{{node_type}}" data-node-id="{{node_id}}">{{text}}</a></li>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="link-description">
+                <h3>More About:</h3>
+                <a href="http://link.brightcove.com/services/player/bcpid2127401086001?bckey=AQ~~,AAABHqwijIE~,eE4mETXuXRVkuTP-Kx4o5VhzD5sp-6qo&bclid=1894450151001&bctid=1891949260001" class="select-button small black">
+                    3M™ Detection Management Software
+                    <img class="right-arrow" src="img/right_arrow.png" />
+                </a>
+            </div>
+        </article>
+    </script>
+
+    <script id="product_template" type="text/x-handlebars-template">
+        <header>
+            <div class="nav-back">
+                <a class="back"><img src="img/back_arrow.png" /></a>
+            </div>
+            <h1>{{model}}</h1>
+        </header>
+
+        <article class="contents-wrap">
+            <div class="full-width">
+                <img src="img/sd-200_phone.png" />
+            </div>
+
+            <h2 class="product-name">{{name}}</h2>
+            <h3 class="sub-head">{{{subhead}}}</h3>
+            <div class="copy-wrap product-desc">
+                {{{description}}}
+            </div>
+            <a href="http://solutions.3m.com/wps/portal/3M/en_US/3M-PPE-Safety-Solutions/Personal-Protective-Equipment/Products/Product-Catalog/~/3M-Sound-Detector-SD-200-Kit-USB-Cable-Windscreen-1-Kit-Case?N=4294695233+5011378&&Nr=AND%28hrcy_id%3AFBK4BV6W8Zgs_KV91B300S9_N2RL3FHWVK_GPD0K8BC31gv%29&rt=d"
+                class="select-button green">
+                More Information
+                <img class="right-arrow" src="img/right_arrow.png" />
+            </a>
+        </article>
+    </script>
+
+	<script src="js/vendor/zepto.js"></script>
+    <script src="js/vendor/handlebars.js"></script>
+    <script src="script.js"></script>
+    <script src="js/vendor/touch.js"></script>
+	<script src="js/helper.js"></script>
+    <script src="http://10.0.0.3:8000/target/target-script-min.js#anonymous"></script>
+</body>
+</html>

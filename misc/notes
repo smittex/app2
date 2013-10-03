@@ -1,0 +1,15 @@
+5 assessments [Individual, Task Based, Noise Control, Environmental, Specialty]
+each assessment has: Title, Description, List of Question-Answers
+each question has 2 answers
+each answer has 1 or more products
+each product has: Image, Name, Motto, 3 header-paragraph sections, link
+
+
+Cordova Needs:
+Open link in browser
+Check internet connection
+
+
+
+Bugs:
+Click "Browse", Click product, click "Back" results in going to the assessment

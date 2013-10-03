@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+	<link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" />
+	<meta name="viewport" id="vp" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)" />
+
+	<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+	<nav class="main-nav">
+		<ul>
+			<li><a class="home" onclick="app.home()">Home</a></li>
+			<li><a class="open-assessments">Assessments</a></li>
+			<li><a class="open-browse">Browse</a></li>
+		</ul>
+	</nav>
+
+	<section id="splash" class="screen splash first">
+		<img src="img/3M_logo.jpg" />
+		<div class="slogans">
+			<h4 class="bolder">3M™ Hearing Solutions</h4>
+			<h4>The power to protect your world.<sup>SM</sup></h4>
+		</div>
+	</section>
+
+	<section class="screen montage" data-screen="montage" style="display:none;">
+		<h4 class="bolder">3M™ Hearing Solutions</h4>
+		<img class="montage-top" src="img/top_montage.jpg"/>
+		<nav class="cat-nav">
+			<ul>
+				<li>
+					<a class="next select-button det-icon">Detection
+						<img class="right-arrow" src="img/right_arrow.png"/>
+					</a>
+				</li>
+				<li>
+					<a class="next select-button pro-icon">Protection
+						<img class="right-arrow" src="img/right_arrow.png"/>
+					</a>
+				</li>
+
+				<li>
+					<a class="next select-button browse-icon">Communication
+						<img class="right-arrow" src="img/right_arrow.png"/>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<img class="montage-top" src="img/bottom_montage.jpg"/>
+	</section>
+
+	<section class="screen" data-screen="cat-intro"></section>
+	<section class="screen" data-screen="select-assess"></section>
+	<section class="screen after-assess" data-screen="assess-intro"></section>
+	<section class="screen after-assess" data-screen="question-container"></section>
+	<section class="screen after-assess" data-screen="product-page"></section>
+
+	<section class="screen browse general">
+		<header>
+			<h1>Browse</h1>
+		</header>
+
+		<div class="pane category">
+			<article class="contents-wrap">
+				<ul>
+					<li><a class="browse-next select-button multiple transparent list med">
+							3M™ Detection Solutions
+							<div class="color det">
+								<img src="img/right_arrow.png" />
+							</div>
+					</a></li>
+					<li><a class="browse-next select-button multiple transparent list med">
+						3M™ Protection Solutions
+						<div class="color pro">
+							<img src="img/right_arrow.png"/>
+						</div>
+					</a></li>
+				</ul>
+			</article>
+		</div>
+		<div class="pane product-list">
+		</div>
+	</section>
+
+	<script src="js/vendor/zepto.js"></script>
+	<script src="js/vendor/handlebars.js"></script>
+	<script src="js/vendor/touch.js"></script>
+	<script src="js/helper.js"></script>
+	<script src="js/tmpl.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<header>
+	<div class="nav-back">
+		<a class="back"><img src="img/back_arrow.png"/></a>
+	</div>
+	<h1>{{{title}}}</h1>
+</header>
+<article class="contents-wrap">
+	<h2 class="question">{{{question}}}</h2>
+	<div class="copy-wrap">
+		<p>{{{description}}}</p>
+	</div>
+	<div class="question-choices">
+		<ul>
+			{{#each answers}}
+				<li><a class="answer" data-question-id="{{../question_id}}" data-answer-id="{{id}}"
+					   data-node-type="{{node_type}}" data-node-id="{{node_id}}">{{text}}</a></li>
+			{{/each}}
+		</ul>
+	</div>
+</article>

@@ -1,0 +1,17 @@
+<div class="browse-back">
+	<a class="back-pane">
+		<img class="browse-back-arrow" src="img/back_arrow.png"/>
+	</a>
+</div>
+<article class="contents-wrap">
+	<ul>
+		{{#each products}}
+			<li><a class="open-product select-button multiple transparent list med" data-id="{{id}}">
+				{{name}}
+				<div class="color det">
+					<img src="img/right_arrow_black.png"/>
+				</div>
+			</a></li>
+		{{/each}}
+	</ul>
+</article>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Data Source" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="223ab768-9e56-402c-b9ca-d5cff8538318">
+    <synchronize>true</synchronize>
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/platforms/android/assets/products.db</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$PROJECT_DIR$/../sqlite-jdbc-3.7.2.jar!/</url>
+      </library>
+      <library>
+        <url>file://$PROJECT_DIR$/../xerial-sqlite-license.txt</url>
+      </library>
+    </libraries>
+    <schema name="" catalog=""/>
+    <table name="__WebKitDatabaseInfoTable__" schema="" catalog="" type="TABLE">
+      <column name="key" sqlType="TEXT" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+      <column name="value" sqlType="TEXT" length="2000000000" precision="10" nullable="false" jdbcType="12"/>
+    </table>
+    <table name="answers" schema="" catalog="" type="TABLE">
+      <column name="answer_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="question_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="answer_text" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="node_type" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="node_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="products" schema="" catalog="" type="TABLE">
+      <column name="product_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="name" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="desc_1" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="desc_2" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="content" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="image" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="link" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <primary-key columns="product_id"/>
+    </table>
+    <table name="questions" schema="" catalog="" type="TABLE">
+      <column name="question_id" sqlType="INTEGER" length="2000000000" precision="10" nullable="false" jdbcType="4"/>
+      <column name="question_text" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="category" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="assessment" sqlType="TEXT" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" length="2000000000" precision="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
