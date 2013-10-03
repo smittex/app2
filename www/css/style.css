@@ -769,7 +769,7 @@ nav.cat-nav ul li a.com-icon{
 	background-image: none;
 }
 
-nav.cat-nav ul li a.browse-icon{
+nav.cat-nav ul li a.com{
 	right: 100%;
 	background-color: #b3b6bf;
 	animation:slidein 1s;

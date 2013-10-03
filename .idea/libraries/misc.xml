@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="misc">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/misc/Detection.zip!/" />
+      <root url="jar://$PROJECT_DIR$/misc/Opening_Montage_Images.zip!/" />
+      <root url="jar://$PROJECT_DIR$/misc/Protection_Images.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
