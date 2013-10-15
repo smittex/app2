@@ -13,6 +13,7 @@
     <content src="index.html" />
     <access origin="http://127.0.0.1*" />
     <access origin="http://fonts.googleapis.com/*" />
+    <preference name="phonegap-version" value="3.0.0" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
     <preference name="orienation" value="portrait" />
